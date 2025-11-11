@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss Task2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./font.css" />
+</head>
+<body class="overflow-x-hidden">
+    <!-- Header section start-->
+    <header class=" flex flex-col md:flex-row h-[120px] w-full bg-white items-center justify-between px-6 md:px-20 py-4 md:py-0 relative">
+        
+        <div class="flex items-center space-x-3 md:mb-0">
+            <a> <img src="./assets/Askmeidentity.png" class="h-20 w-auto border-2 border-transparent hover:border-blue-600 rounded-sm mt-8 px-2 transition-colors"></a>
+        </div>
+
+        <nav class="hidden md:flex items-center space-x-5 text-[14px] font-semibold text-black">
+            <a class="hover:underline decoration-blue-600">Home</a>
+            <a class="hover:underline decoration-blue-600">About</a>
+            <a class="hover:underline decoration-blue-600">Courses</a>
+            <a class="hover:underline decoration-blue-600">Contact</a>
+        </nav>
+
+        <div class="flex items-center space-x-5 ">
+            <a> <img src="./assets/Group_search_delete_cont.png" class="items-center border-2 border-transparent hover:border-blue-600 rounded-md mt-0 px-2 transition-colors"></a>
+            <p class="px-8 font-medium underline decoration-black-400 hover:decoration-blue-500">Login</p>
+            <button class="bg-gradient-to-r from-blue-700 to-purple-500 text-white px-5 py-2 rounded-lg font-semibold border-3 border-transparent 
+             hover:underline decoration-blue-500 hover:border-blue-500 transition-colors focus:border-blue-500">Signup</button>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- first page starts -->
+   
+    <section class=" flex flex-col lg:flex-row items-center justify-between mt-10 w-auto text-white h-auto bg-gradient-to-t from-purple-800  to-blue-700 py-10 px-10 md:px-10 relative overflow-hidden text-center">
+
+        <div class="flex-1 text-left space-y-6"><p class="uppercase tracking-[0.2em] text-xs font-medium text-white/80 hover:underline decoration-blue-400 mt-8">Successful coaches are visionaries</p>
+                <h1 class=" px-0 text-3xl md:text-4xl lg:text-5xl leading-snug font-semibold mt-8 hover:underline decoration-blue-600">Good <span class="text-blue-500">coaching</span> is <br>good teaching & <br> nothing else.</h1>
+                <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-3 sm:space-y-0 mt-8 "><button class=" hover:border-blue-500 transition-colors py-2 px-5 pl-[15px] pr-[15px] font-semibold rounded-lg text-center mt-8 border-2 rounded-[8px] border-white-700 focus:border-blue-500">View Courses</button>
+                <p class=" mt-8 px-2 text-center font-bold text-xs hover:underline decoration-blue-400">Get Free Consultation</p></div>
+
+                <div class="flex bg-white sm:flex-row font-semibold items-center flex mt-10 px-2 h-20 w-fit text-black gap-x-6 rounded-sm"> 
+                    <p class="flex">What do you want to learn today?</p> 
+                    <button class=" flex items-center bg-gradient-to-r from-blue-700 to-purple-500 px-5 gap-2 py-2 text-white rounded-lg text-center h-10"> 
+                        <img src="./assets/search.png" class="h-4 w-4" >search</button>
+                </div>
+        </div> 
+
+        <div class="flex items-center text-left text-white gap-3 relative left-[-100px] md:gap-4">
+            <div class="w-[2px] h-50 bg-gradient-to-b from-blue-400 to-transparent rounded-full shadow-[0_0_10px_#3b82f6] gap-40"></div>
+            <div class="mt-1">
+                <p class="font-semibold">Shyam</p>
+                <p class="text-xs md:text-sm text-gray-200 leading-relaxed mt-1">
+                In a coaching role, you ask the <br>questions and rely more on your <br> staff, who become the experts, to <br> provide the information.</p>
+                <p class="text-blue-400 text-xs mt-2 font-semibold">4.9</p>
+            </div>
+        </div>
+
+        <div class="relative flex justify-center translate-y-17 right-60 md:mt-30 lg:mt-60">
+            <div class="w-60 h-110 border-2 border-0 md:border-3 lg:border-4 border-white/20 rounded-full absolute
+            w-[180px] h-[100px] sm:hidden md:hidden lg:block lg:w-[220px] lg:h-[300px]"></div>
+
+            <div class="mt-4 w-50 h-110 border-2 md:border-3 lg:border-4 border-dotted border-white/20 rounded-full absolute
+            w-[150px] h-[90px] sm:hidden md:hidden lg:block lg:w-[180px] lg:h-[290px] mt-1"></div>
+
+            <div class="w-48 h-110 border-2 md:border-3 lg:border-4 border-0 border-white/20 rounded-full absolute top-8
+            w-[130px] h-[80px] sm:hidden md:hidden lg:block lg:w-[140px] lg:h-[280px]"></div>
+
+        </div>
+
+        <div class=" relative flex w-10 md:w-1/2 lg:w-1/3 justify-center items-center mt-10 md:mt-0">
+            <div class="absolute inset-0 flex justify-center items-center">
+                <div class="w-[600px] h-[700px] absolute right-0 top-1/2 -translate-y-1/2 sm:w-[350px] sm:h-[450px]
+                 md:w-[500px] md:h-[600px] lg:w-[600px] lg:h-[700px] bg-[radial-gradient(ellipse_at_center,_white_25%,_transparent_70%)]"></div>
+            </div>
+                <img src="./assets/Womanlapt-removebg.png"
+                 class=" mt-[40px] relative right-30 h-auto drop-shadow-2xl rounded-lg transform -translate-x-6
+                 w-[180px] sm:w-[400px] md:w-[500px] lg:w-[600px] -translate-x-3 sm:-translate-x-4 md:-translate-x-6 lg:-translate-x-10" >
+        </div> 
+        
+    </section>      
+     <!-- first page Ends -->
+
+     <!-- Footer of first page -->
+      <div class=" relative grid grid-cols-6 bg-gradient-to-b from-blue-700 to-purple-500 items-center w-auto h-auto before:absolute before:inset-0 before:bg-gradient-to-b 
+      before:from-white/70 before:to-transparent before:h-[2px] before:w-full before:top-0 before:content-['']
+      mt-4 sm:mt-0 md:mt-0 lg:-mt-10">
+        <img src="./assets/spotify.png" class="mt-8 mb-8 ml-10 sm:h-3 md:h-7 lg:h-9">
+        <img src="./assets/amazon.png" class="mt-8 mb-8 sm:h-3 md:h-7 lg:h-9">
+        <img src="./assets/spotify.png" class="mt-8 mb-8 sm:h-3 md:h-7 lg:h-9">
+        <img src="./assets/cisco.png" class="mt-8 mb-8 sm:h-3 md:h-7 lg:h-9">
+        <img src="./assets/logitech.png" class="mt-8 mb-8 sm:h-3 md:h-7 lg:h-9">
+        <img src="./assets/amazon.png" class="mt-8 mb-8 sm:h-3 md:h-7 lg:h-9">
+      </div>
+      <!-- Footer ends -->
+
+      <!-- Second page start -->
+       <div class="px-4 sm:px-8 md:px-12 lg:px-24 py-10">
+            <div class="flex flex-col sm:flex-row items-center justify-center text-center sm:text-left space-y-4 sm:space-y-0 sm:space-x-6"></div>
+            <div class="flex justify-center sm:justify-start">
+                    <div class="ml-15 mt-8">
+                        <img src="./assets/circle_second.png" class="w-10 sm:w-12 md:w-16">
+                    </div>
+                    <div class="w-full text-center">
+                        <p class="font-bold text-2xl sm:text-3xl md:text-4xl ">Featured <span class="text-blue-500">Course</span></p>
+                        <p class="uppercase tracking-[0.2em] text-sm sm:text-sm md:text-basefont-semibold ">The feature courses are we invented our teaching part</p>
+                    </div>
+            </div>
+            <div class=" relative grid grid-row-2 grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-10 md:mt-16">
+                    <img src="./assets/motion_graphics.png">
+                    <img src="./assets/advance_php.png" >
+                    <img src="./assets/education_software.png" >
+                    <img src="./assets/complete_finance.png" >
+                    <img src="./assets/marketing_2023.png" >
+                    <img src="./assets/learn_3d.png" class="border border-gray-100 shadow-[0_4px_10px_rgba(0,0,0,0.05)] rounded-2xl">
+            </div>
+            <div class="flex justify-center mt-10" >
+                    <button class="bg-gradient-to-r from-blue-700 to-purple-500 px-5 py-2 mb-18 rounded-lg font-semibold border-3 border-transparent 
+                    hover:underline decoration-blue-500 hover:border-blue-500 transition-colors focus:border-blue-500 text-white">Explore courses</button>
+            </div>
+       </div>
+       <!-- Second page end -->
+
+       <!-- Third page starts -->
+        <div class=" items-center justify-between -mt-10  w-auto text-white h-auto bg-gradient-to-t from-purple-800  to-blue-700 py-10 px-10 text-center">
+            <div><p class=" mt-8 px-2 text-center font-bold text-xl hover:underline decoration-blue-400">Why <span class="text-blue-500">learn</span> with our courses?</p></div>
+            <div><p class=" mt-4 mb-15 px-2 text-center text-xs hover:underline decoration-blue-400">We are providing the best courses and top classes.And <br>extradinery placement training.....</p></div>
+            <div class=" flex justify-center">
+            <img src="./assets/learn_graduate_work.png" >
+        </div>
+        </div>
+        <!-- Third page ends -->
+         
+        <!-- Fourth page Top categories -->
+        <div class="bg-gradient-to-t from-blue-200  to-white-700 mt-20">
+            <div>
+                <p class="font-bold text-2xl text-center">Top <span class="text-blue-500">Categories</span></p>
+                <p class=" text-xs font-semibold text-center">100+ unique online course list designs</p>
+            </div>
+            <div class="grid grid-row-1 grid-cols-6 relative ml-15 w-auto h-auto mt-15 mb-10">
+                <img src="./assets/digital_marketing.png" class="mb-20">
+                <img src="./assets/web_dev.png" class="mb-20">
+                <img src="./assets/art_human.png" class="mb-20">
+                <img src="./assets/personal_dev.png" class="mb-20">
+                <img src="./assets/IT_soft.png" class="mb-20">
+                <img src="./assets/graph_design.png" class="mb-20">
+            </div>
+       </div>
+        <!-- Fourth page end -->
+         
+         <!-- five page subscribe  start-->
+          <section class="bg-gradient-to-t from-blue-300 to-white py-16 md:py-20 lg:py-24 mt-20 mb-20 overflow-hidden">
+                <div class="flex justify-center -mt-20 mb-10">
+                    <img src="./assets/suscribe.png" class="w-[780px] sm:w-[820px] md:w-[880px] lg:w-[1020px] h-auto -translate-y-1">
+                </div>
+                <div class="flex justify-center -mt-20 mb-8">
+                    <img src="./assets/Polygon.png" class="w-[50px] sm:w-[25px] md:w-[40px] lg:w-[60px] h-auto  
+                    sm:ml-[400px] md:ml-[700px] lg:ml-[900px] ml-300 mt=10">
+                </div>
+                <div class="flex justify-center -mt-5 mb-10">
+                    <img src="./assets/video.png" class="sm:w-[580px] md:w-[640px] lg:w-[950px] 
+                    h-auto max-h-[350px] sm:max-h-[400px] md:max-h-[450px] lg:max-h-[500px]">
+                </div>
+                <div>
+                    <img src="./assets/semicircle.png" class="left-0 mt-5 ml-20 w-[50px] sm:w-[25px] md:w-[40px] lg:w-[60px]">
+                    <p class=" flex flex-col text-blue-500 font-bold text-2xl sm:text-3xl md:text-4xl text-blue-800 mb-8 items-center hover:underline decoration-blue-500 hover:border-blue-500 transition-colors">Testimonials</p>
+                    <p class=" flex flex-col font-semibold sm:text-base md:text-lg text-sm items-center hover:underline decoration-blue-500 hover:border-blue-500 transition-colors">What our student say about us</p>
+                </div>
+                <div class=" flex justify-center items-center gap-[-3px] mt-10 sm:space-x-[-10px] md:space-x-[-20px] ">
+                    <img src="./assets/aboutus1.5.png" class="w-[200px] sm:w-[260px] md:w-[300px] lg:w-[340px] transform translate-y-6 scale-95 -mr-6">
+                    <img src="./assets/aboutus1.5.png" class="w-[200px] sm:w-[240px] md:w-[280px] lg:w-[320px] scale-100 z-8">
+                    <img src="./assets/aboutus1.5.png" class="w-[200px] sm:w-[260px] md:w-[300px] lg:w-[340px] transform translate-y-6 scale-95 -ml-4">
+                </div>
+                <div class="flex justify-center mt-10">
+                    <img src="./assets/arrow.png" class="w-[100px] sm:w-[50px] md:w-[50px] lg:w-[80px] h-auto 
+                    sm:ml-[550px] md:ml-[700px] lg:ml-[900px]  ml-310">
+                </div>
+                <div> 
+                    <img src="./assets/final_footer.png" class="items-center">
+                </div>
+            </section>  
+         <!-- five page ends -->
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+</body>
+</html>
